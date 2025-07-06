@@ -9,13 +9,13 @@ namespace Assets.Scripts
 
         private void Update()
         {
-            if (Input.GetKeyDown(KeyCode.UpArrow))
+            if (Input.GetKeyDown(KeyCode.W))
                 model.currentDir.value = Direction.Up;
-            if (Input.GetKeyDown(KeyCode.DownArrow))
+            if (Input.GetKeyDown(KeyCode.S))
                 model.currentDir.value = Direction.Down;
-            if (Input.GetKeyDown(KeyCode.LeftArrow))
+            if (Input.GetKeyDown(KeyCode.A))
                 model.currentDir.value = Direction.Left;
-            if (Input.GetKeyDown(KeyCode.RightArrow))
+            if (Input.GetKeyDown(KeyCode.D))
                 model.currentDir.value = Direction.Right;
         }
     }
